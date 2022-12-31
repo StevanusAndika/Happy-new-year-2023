@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body{
+        margin:0;
+        padding:0;
+        font-family:sans-serif;
+        }
+        .container{
+            width:100%;
+            height: 100vh;
+            overflow:hidden;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+          .container video{
+              position: absolute ;
+              top:0;
+              left:0;
+              object-fit:cover;
+              width:100%;
+              height: 100%;
+              pointer-events: none;
+          }
+          .container .content {
+          position :relative;
+          z-index:1;
+          max-width:100%;
+          margin:0 auto;
+          text-align: center;
+          }
+           .container .content h1 { 
+            margin:0;
+            padding:0;
+            font-size:4em;
+             text-transform: uppercase;
+            color:white;
+            text-shadow:2px 2px 8px #000;
+            }
+             .container .content p{  
+               font-size:1.5em;
+               color:#fff;
+               text-shadow:2px 2px 8px #000;
+             }
+             .container .content button{
+                 padding:15px;
+                 background-color:yellow;
+                 border-radius:10px;
+                 font-size:20px;
+                 color:#000;
+                 border:0;
+                  
+             }
+           
+             a:link{
+                 text-decoration: none;
+                 color:black;
+             }
+             
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <video autoplay muted loop>
+      <source src="bg.mp4"type="video/mp4">
+        
+      </video>
+      <div class ="content">
+          <h1>Happy new year 2023</h1>
+       
+          <h1>Amsal 3:5-6 </h1>
+          <p>Percayalah kepada Tuhan dengan segenap hatimu, dan janganlah bersandar kepada pengertianmu sendiri. Akuilah Dia (Tuhan) dalam segala lakumu, maka Ia akan meluruskan jalanmu.</p>
+          <button><a href="https://stevanusandika.github.io/Portofolio-Boostrap-Stevanus/">Visit my website</button>
+      </div>
+    </div>
+  </body>
+</html>
